@@ -25,8 +25,8 @@ const tcpServer = net.createSocket((socket) => {
     })
 })
 
-tcpServer.listen(12346, () => {
-    console.log('Servidor TCP escutando na porta 12346');
+tcpServer.listen(12345, () => {
+    console.log('Servidor TCP escutando na porta 12345');
   });
 
 
